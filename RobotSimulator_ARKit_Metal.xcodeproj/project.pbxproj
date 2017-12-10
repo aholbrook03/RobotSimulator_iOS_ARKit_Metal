@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		641E640C1FDCBCEA005317D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 641E640B1FDCBCEA005317D3 /* AppDelegate.m */; };
+		641E640F1FDCBCEA005317D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 641E640E1FDCBCEA005317D3 /* ViewController.m */; };
+		641E64121FDCBCEA005317D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 641E64101FDCBCEA005317D3 /* Main.storyboard */; };
+		641E64141FDCBCEA005317D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 641E64131FDCBCEA005317D3 /* Assets.xcassets */; };
+		641E64171FDCBCEA005317D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 641E64151FDCBCEA005317D3 /* LaunchScreen.storyboard */; };
+		641E641A1FDCBCEA005317D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 641E64191FDCBCEA005317D3 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		641E64071FDCBCEA005317D3 /* RobotSimulator_ARKit_Metal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RobotSimulator_ARKit_Metal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		641E640A1FDCBCEA005317D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		641E640B1FDCBCEA005317D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		641E640D1FDCBCEA005317D3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		641E640E1FDCBCEA005317D3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		641E64111FDCBCEA005317D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		641E64131FDCBCEA005317D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		641E64161FDCBCEA005317D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		641E64181FDCBCEA005317D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		641E64191FDCBCEA005317D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		641E64041FDCBCEA005317D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		641E63FE1FDCBCEA005317D3 = {
+			isa = PBXGroup;
+			children = (
+				641E64091FDCBCEA005317D3 /* RobotSimulator_ARKit_Metal */,
+				641E64081FDCBCEA005317D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		641E64081FDCBCEA005317D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				641E64071FDCBCEA005317D3 /* RobotSimulator_ARKit_Metal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		641E64091FDCBCEA005317D3 /* RobotSimulator_ARKit_Metal */ = {
+			isa = PBXGroup;
+			children = (
+				641E640A1FDCBCEA005317D3 /* AppDelegate.h */,
+				641E640B1FDCBCEA005317D3 /* AppDelegate.m */,
+				641E640D1FDCBCEA005317D3 /* ViewController.h */,
+				641E640E1FDCBCEA005317D3 /* ViewController.m */,
+				641E64101FDCBCEA005317D3 /* Main.storyboard */,
+				641E64131FDCBCEA005317D3 /* Assets.xcassets */,
+				641E64151FDCBCEA005317D3 /* LaunchScreen.storyboard */,
+				641E64181FDCBCEA005317D3 /* Info.plist */,
+				641E64191FDCBCEA005317D3 /* main.m */,
+			);
+			path = RobotSimulator_ARKit_Metal;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		641E64061FDCBCEA005317D3 /* RobotSimulator_ARKit_Metal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 641E641D1FDCBCEA005317D3 /* Build configuration list for PBXNativeTarget "RobotSimulator_ARKit_Metal" */;
+			buildPhases = (
+				641E64031FDCBCEA005317D3 /* Sources */,
+				641E64041FDCBCEA005317D3 /* Frameworks */,
+				641E64051FDCBCEA005317D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RobotSimulator_ARKit_Metal;
+			productName = RobotSimulator_ARKit_Metal;
+			productReference = 641E64071FDCBCEA005317D3 /* RobotSimulator_ARKit_Metal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		641E63FF1FDCBCEA005317D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Andrew Holbrook";
+				TargetAttributes = {
+					641E64061FDCBCEA005317D3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 641E64021FDCBCEA005317D3 /* Build configuration list for PBXProject "RobotSimulator_ARKit_Metal" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 641E63FE1FDCBCEA005317D3;
+			productRefGroup = 641E64081FDCBCEA005317D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				641E64061FDCBCEA005317D3 /* RobotSimulator_ARKit_Metal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		641E64051FDCBCEA005317D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				641E64171FDCBCEA005317D3 /* LaunchScreen.storyboard in Resources */,
+				641E64141FDCBCEA005317D3 /* Assets.xcassets in Resources */,
+				641E64121FDCBCEA005317D3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		641E64031FDCBCEA005317D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				641E640F1FDCBCEA005317D3 /* ViewController.m in Sources */,
+				641E641A1FDCBCEA005317D3 /* main.m in Sources */,
+				641E640C1FDCBCEA005317D3 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		641E64101FDCBCEA005317D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				641E64111FDCBCEA005317D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		641E64151FDCBCEA005317D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				641E64161FDCBCEA005317D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		641E641B1FDCBCEA005317D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		641E641C1FDCBCEA005317D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		641E641E1FDCBCEA005317D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MV6TJVK98C;
+				INFOPLIST_FILE = RobotSimulator_ARKit_Metal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "na.RobotSimulator-ARKit-Metal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		641E641F1FDCBCEA005317D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MV6TJVK98C;
+				INFOPLIST_FILE = RobotSimulator_ARKit_Metal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "na.RobotSimulator-ARKit-Metal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		641E64021FDCBCEA005317D3 /* Build configuration list for PBXProject "RobotSimulator_ARKit_Metal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				641E641B1FDCBCEA005317D3 /* Debug */,
+				641E641C1FDCBCEA005317D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		641E641D1FDCBCEA005317D3 /* Build configuration list for PBXNativeTarget "RobotSimulator_ARKit_Metal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				641E641E1FDCBCEA005317D3 /* Debug */,
+				641E641F1FDCBCEA005317D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 641E63FF1FDCBCEA005317D3 /* Project object */;
+}
