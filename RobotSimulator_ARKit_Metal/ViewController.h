@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <ARKit/ARKit.h>
+#import "SceneRenderer.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <ARSessionDelegate, UIGestureRecognizerDelegate>
 
+- (void)update;
 
 @end
 

@@ -1,0 +1,23 @@
+{
+    "name": "SCARA",
+    "type": "serial",
+    "model_filename": "scara",
+    "model_file_extension": ".obj",
+    "joints": [
+        { "name": "r0", "type": "revolute", "axis": [0, 1, 0], "limit_min" : -105.0, "limit_max" : 105.0, "position": [0, 0.342, 0], "link_a": "L0", "link_b": "L1",
+          "value": 0.0, "dvalue": 72.0
+        },
+        { "name": "r1", "type": "revolute", "axis": [0, 1, 0], "limit_min" : -125.0, "limit_max" : 125.0,  "position": [0.325, 0, 0], "link_a": "L1", "link_b": "L2",
+          "value": 0.0, "dvalue": 72.0
+        },
+        { "name": "d2", "type": "prismatic", "axis": [0, 1, 0], "limit_min" : -0.21, "limit_max" : 0.0,  "position": [0.275, 0.045, 0], "link_a": "L2", "link_b": "d3",
+          "value": 0.0, "dvalue": 0.21
+        }
+    ],
+    "links": [
+        { "name": "L0" },
+        { "name": "L1" },
+        { "name": "L2" },
+        { "name": "d3" }
+    ]
+}

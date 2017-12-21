@@ -7,15 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64150D051FE060CB007D19E6 /* Plane.m in Sources */ = {isa = PBXBuildFile; fileRef = 64150D041FE060CB007D19E6 /* Plane.m */; };
+		64150D2F1FE0C969007D19E6 /* SerialRobot.m in Sources */ = {isa = PBXBuildFile; fileRef = 64150D2E1FE0C969007D19E6 /* SerialRobot.m */; };
 		641E640C1FDCBCEA005317D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 641E640B1FDCBCEA005317D3 /* AppDelegate.m */; };
 		641E640F1FDCBCEA005317D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 641E640E1FDCBCEA005317D3 /* ViewController.m */; };
 		641E64121FDCBCEA005317D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 641E64101FDCBCEA005317D3 /* Main.storyboard */; };
 		641E64141FDCBCEA005317D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 641E64131FDCBCEA005317D3 /* Assets.xcassets */; };
 		641E64171FDCBCEA005317D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 641E64151FDCBCEA005317D3 /* LaunchScreen.storyboard */; };
 		641E641A1FDCBCEA005317D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 641E64191FDCBCEA005317D3 /* main.m */; };
+		641E64221FDCBD10005317D3 /* MTLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 641E64201FDCBD10005317D3 /* MTLView.m */; };
+		641E64251FDCBD4D005317D3 /* SceneRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 641E64241FDCBD4D005317D3 /* SceneRenderer.m */; };
+		641E642D1FDCD62C005317D3 /* shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 641E642C1FDCD62C005317D3 /* shaders.metal */; };
+		649A4D741FE5DDAE00AA86E7 /* mesh_utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 649A4D731FE5DDAE00AA86E7 /* mesh_utils.m */; };
+		649A4D781FE62D0200AA86E7 /* Joint.m in Sources */ = {isa = PBXBuildFile; fileRef = 649A4D771FE62D0200AA86E7 /* Joint.m */; };
+		649A4D7A1FE62F1A00AA86E7 /* Link.m in Sources */ = {isa = PBXBuildFile; fileRef = 649A4D791FE62F1A00AA86E7 /* Link.m */; };
+		649A4D801FE643DD00AA86E7 /* scara.obj in Resources */ = {isa = PBXBuildFile; fileRef = 649A4D7F1FE643DD00AA86E7 /* scara.obj */; };
+		649A4D821FE6446C00AA86E7 /* scara.json in Resources */ = {isa = PBXBuildFile; fileRef = 649A4D811FE6446C00AA86E7 /* scara.json */; };
+		649A4D851FE8C65D00AA86E7 /* UIControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 649A4D841FE8C65D00AA86E7 /* UIControlView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		64150D031FE060C4007D19E6 /* Plane.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Plane.h; sourceTree = "<group>"; };
+		64150D041FE060CB007D19E6 /* Plane.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Plane.m; sourceTree = "<group>"; };
+		64150D2E1FE0C969007D19E6 /* SerialRobot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SerialRobot.m; sourceTree = "<group>"; };
+		64150D301FE0C972007D19E6 /* SerialRobot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SerialRobot.h; sourceTree = "<group>"; };
 		641E64071FDCBCEA005317D3 /* RobotSimulator_ARKit_Metal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RobotSimulator_ARKit_Metal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		641E640A1FDCBCEA005317D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		641E640B1FDCBCEA005317D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +41,21 @@
 		641E64161FDCBCEA005317D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		641E64181FDCBCEA005317D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		641E64191FDCBCEA005317D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		641E64201FDCBD10005317D3 /* MTLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTLView.m; sourceTree = "<group>"; };
+		641E64211FDCBD10005317D3 /* MTLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTLView.h; sourceTree = "<group>"; };
+		641E64231FDCBD43005317D3 /* SceneRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneRenderer.h; sourceTree = "<group>"; };
+		641E64241FDCBD4D005317D3 /* SceneRenderer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneRenderer.m; sourceTree = "<group>"; };
+		641E642C1FDCD62C005317D3 /* shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = shaders.metal; sourceTree = "<group>"; };
+		64471ACA1FE3263A00D13A4F /* Link.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Link.h; sourceTree = "<group>"; };
+		649A4D731FE5DDAE00AA86E7 /* mesh_utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mesh_utils.m; sourceTree = "<group>"; };
+		649A4D751FE5ED0F00AA86E7 /* mesh_utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mesh_utils.h; sourceTree = "<group>"; };
+		649A4D761FE62D0200AA86E7 /* Joint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Joint.h; sourceTree = "<group>"; };
+		649A4D771FE62D0200AA86E7 /* Joint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Joint.m; sourceTree = "<group>"; };
+		649A4D791FE62F1A00AA86E7 /* Link.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Link.m; sourceTree = "<group>"; };
+		649A4D7F1FE643DD00AA86E7 /* scara.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = scara.obj; sourceTree = "<group>"; };
+		649A4D811FE6446C00AA86E7 /* scara.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = scara.json; sourceTree = "<group>"; };
+		649A4D831FE8C63F00AA86E7 /* UIControlView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIControlView.h; sourceTree = "<group>"; };
+		649A4D841FE8C65D00AA86E7 /* UIControlView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIControlView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +92,25 @@
 				641E640B1FDCBCEA005317D3 /* AppDelegate.m */,
 				641E640D1FDCBCEA005317D3 /* ViewController.h */,
 				641E640E1FDCBCEA005317D3 /* ViewController.m */,
+				641E64231FDCBD43005317D3 /* SceneRenderer.h */,
+				641E64241FDCBD4D005317D3 /* SceneRenderer.m */,
+				64150D031FE060C4007D19E6 /* Plane.h */,
+				64150D041FE060CB007D19E6 /* Plane.m */,
+				649A4D831FE8C63F00AA86E7 /* UIControlView.h */,
+				649A4D841FE8C65D00AA86E7 /* UIControlView.m */,
+				649A4D731FE5DDAE00AA86E7 /* mesh_utils.m */,
+				649A4D751FE5ED0F00AA86E7 /* mesh_utils.h */,
+				64150D2E1FE0C969007D19E6 /* SerialRobot.m */,
+				64150D301FE0C972007D19E6 /* SerialRobot.h */,
+				649A4D761FE62D0200AA86E7 /* Joint.h */,
+				649A4D771FE62D0200AA86E7 /* Joint.m */,
+				64471ACA1FE3263A00D13A4F /* Link.h */,
+				649A4D791FE62F1A00AA86E7 /* Link.m */,
+				641E642C1FDCD62C005317D3 /* shaders.metal */,
+				641E64211FDCBD10005317D3 /* MTLView.h */,
+				641E64201FDCBD10005317D3 /* MTLView.m */,
+				649A4D811FE6446C00AA86E7 /* scara.json */,
+				649A4D7F1FE643DD00AA86E7 /* scara.obj */,
 				641E64101FDCBCEA005317D3 /* Main.storyboard */,
 				641E64131FDCBCEA005317D3 /* Assets.xcassets */,
 				641E64151FDCBCEA005317D3 /* LaunchScreen.storyboard */,
@@ -129,7 +178,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				649A4D801FE643DD00AA86E7 /* scara.obj in Resources */,
 				641E64171FDCBCEA005317D3 /* LaunchScreen.storyboard in Resources */,
+				649A4D821FE6446C00AA86E7 /* scara.json in Resources */,
 				641E64141FDCBCEA005317D3 /* Assets.xcassets in Resources */,
 				641E64121FDCBCEA005317D3 /* Main.storyboard in Resources */,
 			);
@@ -142,9 +193,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				641E64221FDCBD10005317D3 /* MTLView.m in Sources */,
 				641E640F1FDCBCEA005317D3 /* ViewController.m in Sources */,
+				649A4D781FE62D0200AA86E7 /* Joint.m in Sources */,
+				641E642D1FDCD62C005317D3 /* shaders.metal in Sources */,
 				641E641A1FDCBCEA005317D3 /* main.m in Sources */,
+				64150D051FE060CB007D19E6 /* Plane.m in Sources */,
 				641E640C1FDCBCEA005317D3 /* AppDelegate.m in Sources */,
+				64150D2F1FE0C969007D19E6 /* SerialRobot.m in Sources */,
+				649A4D851FE8C65D00AA86E7 /* UIControlView.m in Sources */,
+				641E64251FDCBD4D005317D3 /* SceneRenderer.m in Sources */,
+				649A4D741FE5DDAE00AA86E7 /* mesh_utils.m in Sources */,
+				649A4D7A1FE62F1A00AA86E7 /* Link.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
