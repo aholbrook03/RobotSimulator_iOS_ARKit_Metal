@@ -61,6 +61,8 @@
     CGPoint location = CGPointMake(pointInView.x / self.view.bounds.size.width,
                                    pointInView.y / self.view.bounds.size.height);
     
+    [self.view addSubview:self->_controlView];
+    
     if ([self->_sceneRenderer isPlaneSelected]) {
     } else {
         NSArray<ARHitTestResult *> *hitResults = [self->_arSession.currentFrame hitTest:location
@@ -69,13 +71,16 @@
             [self->_sceneRenderer selectPlaneByIdentifier:hitResult.anchor.identifier];
             ARWorldTrackingConfiguration *sessionConfig = (ARWorldTrackingConfiguration *)self->_arSession.configuration;
             sessionConfig.planeDetection = ARPlaneDetectionNone;
+            
+            // only using first hit result, so break out of for-loop
             break;
         }
         
         if ([self->_sceneRenderer isPlaneSelected]) {
             self->_controlView = [UIControlView createWithFrame:CGRectMake(0.0f, self.view.bounds.size.height * 0.8f,
                                                                                    self.view.bounds.size.width, self.view.bounds.size.height * 0.2f)
-                                               andSceneRenderer:self->_sceneRenderer];
+                                               andSceneRenderer:self->_sceneRenderer
+                                                       andPlane:[self->_sceneRenderer getSelectedPlane]];
             [self.view addSubview:self->_controlView];
         }
     }
@@ -90,6 +95,10 @@
 }
 
 - (void)session:(ARSession *)session didUpdateAnchors:(NSArray<ARAnchor *> *)anchors {
+    if ([self->_sceneRenderer isPlaneSelected]) {
+        return;
+    }
+    
     for (ARAnchor *anchor in anchors) {
         if ([anchor isKindOfClass:[ARPlaneAnchor class]]) {
             [self->_sceneRenderer updatePlane:(ARPlaneAnchor *)anchor];

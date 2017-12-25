@@ -26,6 +26,7 @@
 - (void)addPlane:(ARPlaneAnchor *)planeAnchor;
 - (void)updatePlane:(ARPlaneAnchor *)planeAnchor;
 - (Plane *)getPlaneByIdentifier:(NSUUID *)identifier;
+- (Plane *)getSelectedPlane;
 - (BOOL)isPlaneSelected;
 - (void)selectPlaneByIdentifier:(NSUUID *)identifier;
 - (SerialRobot *)getRobot;

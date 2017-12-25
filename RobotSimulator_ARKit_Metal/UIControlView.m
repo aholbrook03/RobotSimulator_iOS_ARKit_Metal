@@ -17,10 +17,11 @@
     UIButton *_nextButton;
     UILabel *_jointLabel;
     SceneRenderer *_sceneRenderer;
+    Plane *_plane;
     int _jointIndex;
 }
 
-+ (UIControlView *)createWithFrame:(CGRect)frame andSceneRenderer:(SceneRenderer *)sceneRenderer {
++ (UIControlView *)createWithFrame:(CGRect)frame andSceneRenderer:(SceneRenderer *)sceneRenderer andPlane:(Plane *)plane {
     UIControlView *controlView = [[UIControlView alloc] initWithFrame:frame];
     
     controlView->_minusButton = [[UIButton alloc] initWithFrame:CGRectMake(0.0f, 0.0f, frame.size.width * 0.20f, frame.size.height)];
@@ -61,10 +62,12 @@
     [controlView setBackgroundColor:[UIColor grayColor]];
     
     controlView->_sceneRenderer = sceneRenderer;
+    controlView->_plane = plane;
     controlView->_jointIndex = 0;
     
-    controlView->_jointLabel = [[UILabel alloc] initWithFrame:CGRectMake(frame.size.width * 0.25f, frame.size.height * 0.05f,
-                                                                         frame.size.width * 0.5f, frame.size.height * 0.5f)];
+    controlView->_jointLabel = [[UILabel alloc] initWithFrame:CGRectMake(frame.size.width / 2 - frame.size.width * 0.125f,
+                                                                         frame.size.height * 0.75f - frame.size.height * 0.25f - frame.size.height * 0.05f,
+                                                                         frame.size.width * 0.25f, frame.size.height * 0.25f)];
     [controlView->_jointLabel setBackgroundColor:[UIColor blackColor]];
     [controlView->_jointLabel setTextColor:[UIColor yellowColor]];
     [controlView->_jointLabel setText:@"RX"];

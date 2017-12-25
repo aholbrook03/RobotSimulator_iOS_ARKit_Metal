@@ -91,6 +91,10 @@
     return [self->_planeDict objectForKey:identifier];
 }
 
+- (Plane *)getSelectedPlane {
+    return [self getPlaneByIdentifier:self->_selectedPlaneID];
+}
+
 - (BOOL)isPlaneSelected {
     return self->_selectedPlaneID != nil;
 }

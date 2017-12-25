@@ -15,7 +15,7 @@
 
 @interface UIControlView : UIView
 
-+ (UIControlView *)createWithFrame:(CGRect)frame andSceneRenderer:(SceneRenderer *)sceneRenderer;
++ (UIControlView *)createWithFrame:(CGRect)frame andSceneRenderer:(SceneRenderer *)sceneRenderer andPlane:(Plane *)plane;
 
 - (void)handleMinusButtonDown;
 - (void)handleMinusButtonUp;
