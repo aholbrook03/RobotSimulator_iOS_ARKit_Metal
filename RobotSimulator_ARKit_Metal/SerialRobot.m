@@ -125,6 +125,7 @@
         memcpy(joint.linkB.mvpMatrixBuffer.contents, mvpMatrix.columns, sizeof(float) * 16);
         [renderEncoder setVertexBuffer:joint.linkB.mvpMatrixBuffer offset:0 atIndex:1];
         
+        modelMatrix = matrix_multiply(modelMatrix, jointModelMatrix);
         memcpy(joint.linkB.modelMatrixBuffer.contents, modelMatrix.columns, sizeof(float) * 16);
         [renderEncoder setVertexBuffer:joint.linkB.modelMatrixBuffer offset:0 atIndex:2];
         
